@@ -1,0 +1,42 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren und IDEs
+.vs/
+.idea/
+*.swp
+*.suo
+*.user
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Zugangsdaten
+.env
+.env.*
+!.env.example
+secrets.h
+arduino_secrets.h
+
+# Logs
+*.log
+
+# TP1: Arduino / PlatformIO
+build/
+.pio/
+
+# TP2: Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# TP3: C# / .NET
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.trx

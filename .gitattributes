@@ -1,0 +1,12 @@
+# Zeilenenden automatisch vereinheitlichen (Windows und macOS in der Gruppe)
+* text=auto
+
+# Shell-Skripte immer mit LF, sonst laufen sie unter Linux nicht
+*.sh text eol=lf
+
+# Binärdateien nicht anfassen
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.fzz binary
